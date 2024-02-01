@@ -45,4 +45,4 @@ This project is a real-time application built using Express.js, React, MongoDB, 
 1. **Clone the repository:**
 
 ```bash
-git clone <https://github.com/Subhajit1947/Blooddonar-and-Bloodbank-realtime.git>
+git clone https://github.com/Subhajit1947/Blooddonar-and-Bloodbank-realtime.git
