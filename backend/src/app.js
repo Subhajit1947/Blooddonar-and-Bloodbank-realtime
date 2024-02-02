@@ -25,11 +25,12 @@ import userRouter from './routes/users.routes.js'
 import bloodrequestrouter from './routes/bloodrequest.routes.js'
 import blooddonarrouter from './routes/bloodbank.routes.js'
 import paymentRouter from './routes/payment.routes.js'
-
+import eventRouter from './routes/event.routes.js'
 app.use('/api/users',userRouter)
 app.use('/api/blood-request',bloodrequestrouter)
 app.use('/api/blood-donar',blooddonarrouter)
 app.use('/api/order',paymentRouter)
+app.use('/api/event',eventRouter)
 
 
 io.on('connection', (socket) => {

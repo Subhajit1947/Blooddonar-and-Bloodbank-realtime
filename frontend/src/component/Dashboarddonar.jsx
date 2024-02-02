@@ -10,7 +10,7 @@ function Dashboarddonar() {
         <div className='h-full w-1/4 bg-red-800 pl-3 flex flex-col'>
           {user.isAdmin?<>
             <NavLink to='/dashboard/alluser' className={({isActive})=>{return isActive?'cursor-pointer p-3 text-black':'text-white cursor-pointer p-3'}}>All users</NavLink> 
-          <NavLink></NavLink></>:
+            <NavLink to='/dashboard/createevent' className={({isActive})=>{return isActive?'cursor-pointer p-3 text-black':'text-white cursor-pointer p-3'}}>Create Event</NavLink></>:
           <>
           <NavLink to='/dashboard/donate' className={({isActive})=>{return isActive?'cursor-pointer p-3 text-black':'text-white cursor-pointer p-3'}}>Donate Blood</NavLink> 
            <NavLink to='/dashboard/blood-request' className={({isActive})=>{return isActive?'cursor-pointer p-3 text-black':'text-white cursor-pointer p-3'}}>request for Blood</NavLink> 

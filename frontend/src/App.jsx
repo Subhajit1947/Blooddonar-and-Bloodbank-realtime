@@ -21,6 +21,7 @@ import Alluser from "./component/Alluser"
 import { useDispatch } from "react-redux"
 import {loginfn,logoutr} from './feature/authSlice'
 import { io } from "socket.io-client"
+import Createevent from "./component/Createevent"
 const soket=io('http://localhost:5000')
 function App() {
   const is_login=useSelector((state)=>state.islogin)
@@ -94,6 +95,7 @@ function App() {
           <Route path='donar-history' element={<DonarHistory/>}/>
           <Route path='request-history' element={<RequestHistory/>}/>
           <Route path='alluser' element={<Alluser/>}/>
+          <Route path='createevent' element={<Createevent/>}/>
 
           
         </Route>

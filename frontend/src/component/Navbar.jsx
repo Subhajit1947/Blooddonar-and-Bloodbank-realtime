@@ -22,7 +22,7 @@ export default function Navbar({t}) {
       localStorage.removeItem("refresh_token")
       localStorage.removeItem('user')
       dispatch(logoutr())
-      navigate('/login')
+      navigate('/')
     
     })
      
@@ -38,7 +38,7 @@ export default function Navbar({t}) {
          <>
         <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/dashboard/donar-history'>{user.isAdmin?'Admin DashBoard':'DashBoard'}</NavLink>
         <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/avaliable'> Blood avaliable</NavLink>
-        <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/donate'> donate</NavLink>
+        <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/donate'> Donate Money</NavLink>
         
         </> :<>
         <Link></Link>
