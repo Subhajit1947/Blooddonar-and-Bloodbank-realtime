@@ -64,7 +64,7 @@ export default function Navbar({t}) {
         <Link></Link>
         
         
-        <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/adminsignup' >Adminsignup</NavLink>
+{/*         <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/adminsignup' >Adminsignup</NavLink> */}
         <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/signup' >signup</NavLink>
         <NavLink className={({isActive})=>{return isActive?'text-center text-blue-600':'text-white text-center'}} to='/login'>Login</NavLink>
         </>}
