@@ -1,4 +1,4 @@
-# 🩸 BloodDonor and BloodBank Real-Time Project 🏥
+# 🩸 BloodSync 🏥
 
 This project is a real-time application built using Express.js, React, MongoDB, and WebSocket. It allows users to sign up, login, make blood donation requests, request blood, donate money using Razorpay, view their donation history, blood request history, transaction history, and update their profile. Admin users have additional functionalities such as managing donor requests, blood requests, transactions, and user management.
 
